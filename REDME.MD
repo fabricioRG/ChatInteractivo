@@ -1,9 +1,11 @@
 #Chat Interactivo
+
 El chat interactivo es una pequeña aplicación para comunicar dos maquinas por
 medio de puertos seriales virtuales, en este caso se utilizaron los puertos
 **/dev/ttyUSB0** y **/dev/ttyS1**
 
 ##socat
+
 El método de conexión de puertos seriales virtualizados fue la herramienta
 socat, se utilizo el siguiente comando para abrir puertos anteriormente descritos
 ```bash
